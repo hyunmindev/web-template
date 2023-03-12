@@ -1,6 +1,9 @@
+import '@picocss/pico/css/pico.slim.min.css';
+
 import { ReactNode } from 'react';
 
-import AnalyticsWrapper from './components/AnalyticsWrapper';
+import AnalyticsWrapper from '@/app/components/AnalyticsWrapper';
+import StyledComponentsRegistry from '@/app/components/StyledComponentRegistery';
 
 interface Props {
   children: ReactNode;
@@ -15,7 +18,7 @@ function RootLayout({ children }: Props) {
   return (
     <html lang="ko">
       <body>
-        {children}
+        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
         <AnalyticsWrapper />
       </body>
     </html>

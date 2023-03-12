@@ -1,24 +1,44 @@
 # Nextjs Boilerplate
 
+## Summary
+
+This is a boilerplate for Next.js with TypeScript, styled-components.
+
 ## Features
 
-- Nextjs
-- Typescript
-- Bundle Analyzer
+- Next.js
 
-- styled-components
+  - `/appDir` Feature 
+  - Bundle Analyzer
 
-- next-sitemap
-- next-seo
+- TypeScript
 
-- Eslint
-- Prettier
-- Stylelint
+  - Strict Mode
 
-- Husky
-- Lint staged
+- Style
 
-- Vercel
+  - sass, scss
+  - styled-components
+  - Slim Pico.css
+
+- SEO Support
+
+  - next-sitemap
+  - next-seo
+
+- Formatters, Linters
+
+  - Eslint
+  - Prettier
+  - Stylelint
+
+- Dev Tools
+
+  - Husky
+  - Lint staged
+
+- Deployment Support
+  - Vercel Analytics
 
 ## Customization
 

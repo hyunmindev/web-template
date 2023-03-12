@@ -1,8 +1,20 @@
+import ClientComponent from '@/app/components/ClientComponent';
+
+import styles from './page.module.scss';
+
 function Index() {
   return (
-    <main>
-      <h1>Next.js + TypeScript + Tailwind CSS</h1>
-    </main>
+    <>
+      <header className={styles.header}>nextjs boilerplate</header>
+      <main className="container">
+        <h1>Nextjs Boilerplate</h1>
+        <ClientComponent />
+        <ul>
+          <li>Next.js</li>
+          <li>Typescript</li>
+        </ul>
+      </main>
+    </>
   );
 }
 
