@@ -6,14 +6,19 @@
 - Typescript
 - Bundle Analyzer
 
+- styled-components
+
 - next-sitemap
 - next-seo
 
 - Eslint
 - Prettier
+- Stylelint
 
 - Husky
 - Lint staged
+
+- Vercel
 
 ## Customization
 
