@@ -1,6 +1,4 @@
-import '@/styles/reset.scss';
-import '@picocss/pico/scss/pico.slim.scss';
-import '@/styles/global.scss';
+import '@/styles/index.scss';
 
 import { Analytics } from '@vercel/analytics/react';
 import { ReactNode } from 'react';
