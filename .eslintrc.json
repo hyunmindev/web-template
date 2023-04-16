@@ -29,12 +29,15 @@
     "typescript-sort-keys/interface": "error",
     "typescript-sort-keys/string-enum": "error",
 
-    "react/react-in-jsx-scope": "off",
     "react/jsx-sort-props": "error",
+    "react/react-in-jsx-scope": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "react/jsx-props-no-spreading": "off",
 
     "import/prefer-default-export": "off",
 
     "no-param-reassign": ["error", { "props": false }],
+    "quotes": ["error", "single"],
     "no-console": "error"
   }
 }

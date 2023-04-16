@@ -6,8 +6,11 @@
   "customSyntax": "postcss-scss",
   "overrides": [
     {
-      "files": ["**/*.tsx"],
+      "files": ["**/*.{tsx,ts}"],
       "customSyntax": "postcss-styled"
     }
-  ]
+  ],
+  "rules": {
+    "selector-class-pattern": null
+  }
 }
