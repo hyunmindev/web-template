@@ -13,9 +13,9 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@picocss/pico": "^1.5.9",
-    "@vercel/analytics": "^0.1.11",
-    "next": "^13.3.0",
+    "@picocss/pico": "^1.5.10",
+    "@vercel/analytics": "^1.0.0",
+    "next": "^13.3.1",
     "next-sitemap": "^4.0.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -38,7 +38,7 @@
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-sort-destructure-keys": "^1.5.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
-    "eslint-plugin-typescript-sort-keys": "^2.1.0",
+    "eslint-plugin-typescript-sort-keys": "^2.3.0",
     "husky": "^8.0.3",
     "postcss-styled": "^0.34.0",
     "prettier": "^2.8.4",
@@ -47,8 +47,8 @@
     "stylelint-config-standard-scss": "^7.0.1"
   },
   "devDependencies": {
-    "@types/node": "^18.15.11",
-    "@types/react": "^18.0.37",
+    "@types/node": "^18.15.13",
+    "@types/react": "^18.0.38",
     "@types/react-dom": "^18.0.11",
     "@types/styled-components": "^5.1.26",
     "sass": "^1.62.0",
