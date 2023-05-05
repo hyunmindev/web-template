@@ -14,7 +14,7 @@
 
 - Next.js
 
-  - `/appDir` Feature 
+  - `/app` Router 
   - Bundle Analyzer
 
 - TypeScript
