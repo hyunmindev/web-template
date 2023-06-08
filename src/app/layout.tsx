@@ -1,9 +1,9 @@
-import '@/styles/index.scss';
+import '@/styles/global.css';
 
 import { Analytics } from '@vercel/analytics/react';
 import { ReactNode } from 'react';
 
-import StyledComponentsProvider from '@/app/components/StyledComponentsProvider';
+import { firaMono } from '@/styles/font';
 
 interface Props {
   children: ReactNode;
@@ -16,9 +16,12 @@ export const metadata = {
 
 function RootLayout({ children }: Props) {
   return (
-    <html lang="ko">
-      <body>
-        <StyledComponentsProvider>{children}</StyledComponentsProvider>
+    <html
+      className={`${firaMono.variable} overscroll-none`}
+      lang="ko"
+    >
+      <body className="flex min-h-screen flex-col items-center overscroll-none bg-background font-monospace text-stone-200 selection:bg-lime-900 selection:text-stone-50">
+        {children}
         <Analytics />
       </body>
     </html>

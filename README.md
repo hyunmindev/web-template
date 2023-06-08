@@ -1,20 +1,19 @@
 # Next.js Boilerplate
-> This is a boilerplate for Next.js. It is a simple and minimal boilerplate that can be easily customized.
 
+> This is a boilerplate for Next.js. It is a simple and minimal boilerplate that can be easily customized.
 
 ## Philosophy
 
-- **Simple**. simple and easy to understand.
 - **Minimal**. minimal and has only the necessary features.
-- **Strict**. Linting and formatting are strictly enforced. 
-- **Customizable**. customizable and can be easily customized.
+- **Strict**. Linting and formatting are strictly enforced.
+- **Customizable**. can be easily customized.
 - **Up-to-date**. up-to-date and uses the latest version of Next.js.
 
 ## Features
 
 - Next.js
 
-  - `/app` Router 
+  - `/app` Router
   - Bundle Analyzer
 
 - TypeScript
@@ -23,9 +22,8 @@
 
 - Style
 
-  - sass, scss module
-  - styled-components
-  - Slim Pico.css
+  - postcss
+  - tailwindcss
 
 - SEO Support
 
@@ -36,7 +34,6 @@
 
   - Eslint
   - Prettier
-  - Stylelint
 
 - Dev Tools
 
@@ -44,6 +41,7 @@
   - Lint staged
 
 - Deployment Support
+
   - Vercel Analytics
 
 ## Getting Started
@@ -54,7 +52,3 @@
 4. Customize `siteUrl` in `next-sitemap.config.js`
 5. Overwrite favicon file in `src/app/favicon.ico` (optional)
 6. Install dependencies
-    ```bash
-    npm i
-    ```
-
