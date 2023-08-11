@@ -13,7 +13,7 @@
     "simple-import-sort",
     "sort-destructure-keys",
     "sort-keys-fix",
-    "typescript-sort-keys"
+    "react-refresh"
   ],
   "parserOptions": {
     "project": "./tsconfig.json"
@@ -26,8 +26,7 @@
 
     "sort-keys-fix/sort-keys-fix": "error",
 
-    "typescript-sort-keys/interface": "error",
-    "typescript-sort-keys/string-enum": "error",
+    "react-refresh/only-export-components": "warn",
 
     "react/jsx-sort-props": "error",
     "react/jsx-no-useless-fragment": ["error", { "allowExpressions": true }],
