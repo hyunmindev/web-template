@@ -55,9 +55,6 @@ optionalDependencies:
   eslint-plugin-react:
     specifier: ^7.33.1
     version: 7.33.1(eslint@8.46.0)
-  eslint-plugin-react-refresh:
-    specifier: ^0.4.3
-    version: 0.4.3(eslint@8.46.0)
   eslint-plugin-simple-import-sort:
     specifier: ^10.0.0
     version: 10.0.0(eslint@8.46.0)
@@ -2141,19 +2138,6 @@ packages:
     requiresBuild: true
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
-    dependencies:
-      eslint: 8.46.0
-    dev: false
-    optional: true
-
-  /eslint-plugin-react-refresh@0.4.3(eslint@8.46.0):
-    resolution:
-      {
-        integrity: sha512-Hh0wv8bUNY877+sI0BlCUlsS0TYYQqvzEwJsJJPM2WF4RnTStSnSR3zdJYa2nPOJgg3UghXi54lVyMSmpCalzA==,
-      }
-    requiresBuild: true
-    peerDependencies:
-      eslint: '>=7'
     dependencies:
       eslint: 8.46.0
     dev: false

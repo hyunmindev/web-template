@@ -9,12 +9,7 @@
     "plugin:tailwindcss/recommended",
     "plugin:prettier/recommended"
   ],
-  "plugins": [
-    "simple-import-sort",
-    "sort-destructure-keys",
-    "sort-keys-fix",
-    "react-refresh"
-  ],
+  "plugins": ["simple-import-sort", "sort-destructure-keys", "sort-keys-fix"],
   "parserOptions": {
     "project": "./tsconfig.json"
   },
@@ -25,8 +20,6 @@
     "sort-destructure-keys/sort-destructure-keys": "error",
 
     "sort-keys-fix/sort-keys-fix": "error",
-
-    "react-refresh/only-export-components": "warn",
 
     "react/jsx-sort-props": "error",
     "react/jsx-no-useless-fragment": ["error", { "allowExpressions": true }],
