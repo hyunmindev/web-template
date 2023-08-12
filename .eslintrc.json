@@ -9,7 +9,12 @@
     "plugin:tailwindcss/recommended",
     "plugin:prettier/recommended"
   ],
-  "plugins": ["simple-import-sort", "sort-destructure-keys", "sort-keys-fix"],
+  "plugins": [
+    "sort-keys-fix",
+    "simple-import-sort",
+    "typescript-sort-keys",
+    "sort-destructure-keys"
+  ],
   "parserOptions": {
     "project": "./tsconfig.json"
   },
@@ -18,6 +23,9 @@
     "simple-import-sort/exports": "error",
 
     "sort-destructure-keys/sort-destructure-keys": "error",
+
+    "typescript-sort-keys/interface": "error",
+    "typescript-sort-keys/string-enum": "error",
 
     "sort-keys-fix/sort-keys-fix": "error",
 
