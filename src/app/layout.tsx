@@ -1,12 +1,11 @@
-import '@/styles/global.css';
+import type { ReactNode } from 'react';
 
 import { Analytics } from '@vercel/analytics/react';
-import { ReactNode } from 'react';
-
 import { firaMono } from '@/styles/font';
+import '@/styles/global.css';
 
 interface Props {
-  children: ReactNode;
+  readonly children: ReactNode;
 }
 
 export const metadata = {

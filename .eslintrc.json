@@ -7,29 +7,13 @@
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:tailwindcss/recommended",
+    "plugin:perfectionist/recommended-line-length",
     "plugin:prettier/recommended"
-  ],
-  "plugins": [
-    "sort-keys-fix",
-    "simple-import-sort",
-    "typescript-sort-keys",
-    "sort-destructure-keys"
   ],
   "parserOptions": {
     "project": "./tsconfig.json"
   },
   "rules": {
-    "simple-import-sort/imports": "error",
-    "simple-import-sort/exports": "error",
-
-    "sort-destructure-keys/sort-destructure-keys": "error",
-
-    "typescript-sort-keys/interface": "error",
-    "typescript-sort-keys/string-enum": "error",
-
-    "sort-keys-fix/sort-keys-fix": "error",
-
-    "react/jsx-sort-props": "error",
     "react/jsx-no-useless-fragment": ["error", { "allowExpressions": true }],
 
     "no-param-reassign": ["error", { "props": false }],
