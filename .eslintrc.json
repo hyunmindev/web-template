@@ -8,16 +8,19 @@
     "plugin:jsx-a11y/recommended",
     "plugin:tailwindcss/recommended",
     "plugin:perfectionist/recommended-line-length",
+    "plugin:sonar/recommended",
+    "plugin:sonarjs/recommended",
+    "plugin:etc/recommended",
+    "plugin:@microsoft/sdl/common",
+    "plugin:@microsoft/sdl/react",
+    "plugin:@microsoft/sdl/typescript",
     "plugin:prettier/recommended"
   ],
   "parserOptions": {
     "project": "./tsconfig.json"
   },
   "rules": {
-    "react/jsx-no-useless-fragment": ["error", { "allowExpressions": true }],
-
     "no-param-reassign": ["error", { "props": false }],
-    "quotes": ["error", "single"],
     "no-console": "error",
 
     "react/no-danger": "off",
@@ -26,6 +29,10 @@
     "react/jsx-props-no-spreading": "off",
 
     "react-hooks/exhaustive-deps": "off",
+
+    "etc/no-commented-out-code": "error",
+    "etc/prefer-interface": "error",
+    "etc/prefer-less-than": "error",
 
     "import/prefer-default-export": "off"
   }
