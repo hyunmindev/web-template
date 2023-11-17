@@ -3,11 +3,12 @@
     "airbnb",
     "airbnb-typescript",
     "next/core-web-vitals",
+    "plugin:unicorn/recommended",
     "plugin:import/recommended",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:tailwindcss/recommended",
-    "plugin:perfectionist/recommended-line-length",
+    "plugin:perfectionist/recommended-natural",
     "plugin:sonar/recommended",
     "plugin:sonarjs/recommended",
     "plugin:etc/recommended",
@@ -17,23 +18,51 @@
     "plugin:prettier/recommended"
   ],
   "parserOptions": {
-    "project": "./tsconfig.json"
+    "project": true
   },
   "rules": {
+    "object-shorthand": [
+      "error",
+      "always",
+      { "avoidExplicitReturnArrows": true }
+    ],
+    "object-curly-newline": [
+      "error",
+      {
+        "ObjectExpression": { "multiline": true, "minProperties": 1 }
+      }
+    ],
     "no-param-reassign": ["error", { "props": false }],
+    "quotes": ["error", "single"],
+    "arrow-body-style": "error",
     "no-console": "error",
 
-    "react/no-danger": "off",
     "react/react-in-jsx-scope": "off",
     "react/require-default-props": "off",
     "react/jsx-props-no-spreading": "off",
+    "react/prefer-read-only-props": "error",
 
     "react-hooks/exhaustive-deps": "off",
 
     "etc/no-commented-out-code": "error",
     "etc/prefer-interface": "error",
     "etc/prefer-less-than": "error",
+    "etc/no-deprecated": "off",
+    "etc/no-internal": "off",
 
-    "import/prefer-default-export": "off"
+    "unicorn/prefer-top-level-await": "off",
+    "unicorn/no-unreadable-array-destructuring": "off",
+    "unicorn/no-null": "off",
+
+    "import/prefer-default-export": "off",
+    "import/namespace": "off",
+
+    "@typescript-eslint/consistent-type-imports": [
+      "error",
+      { "fixStyle": "inline-type-imports" }
+    ],
+    "@typescript-eslint/method-signature-style": "error",
+
+    "tailwindcss/no-custom-classname": "off"
   }
 }

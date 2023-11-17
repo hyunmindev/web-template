@@ -1,4 +1,4 @@
-import ClientComponent from '@/app/components/ClientComponent';
+import ClientComponent from '~/app/components/ClientComponent';
 
 function Index() {
   return (
