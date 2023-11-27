@@ -36,11 +36,13 @@
     "quotes": ["error", "single"],
     "arrow-body-style": "error",
     "no-console": "error",
+    "yoda": "off",
 
     "react/react-in-jsx-scope": "off",
     "react/require-default-props": "off",
     "react/jsx-props-no-spreading": "off",
     "react/prefer-read-only-props": "error",
+    "react/no-danger": "off",
 
     "react-hooks/exhaustive-deps": "off",
 
@@ -51,6 +53,7 @@
     "etc/no-internal": "off",
 
     "unicorn/prefer-top-level-await": "off",
+    "unicorn/filename-case": "off",
     "unicorn/no-unreadable-array-destructuring": "off",
     "unicorn/no-null": "off",
 
@@ -61,8 +64,11 @@
       "error",
       { "fixStyle": "inline-type-imports" }
     ],
-    "@typescript-eslint/method-signature-style": "error",
-
-    "tailwindcss/no-custom-classname": "off"
+    "@typescript-eslint/method-signature-style": "error"
+  },
+  "settings": {
+    "tailwindcss": {
+      "cssFiles": ["./app/_styles/global.css"]
+    }
   }
 }

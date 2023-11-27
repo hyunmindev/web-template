@@ -13,7 +13,7 @@
     "strict": true,
     "module": "esnext",
     "moduleResolution": "bundler",
-    "paths": { "~/*": ["./src/*"] },
+    "paths": { "~/*": ["./app/*"] },
     "resolveJsonModule": true,
     "removeComments": true,
     "allowJs": false,

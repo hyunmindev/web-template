@@ -1,54 +1,34 @@
-# Next.js Boilerplate
-
-> This is a boilerplate for Next.js. It is a simple and minimal boilerplate that can be easily customized.
-
-## Philosophy
-
-- **Minimal**. minimal and has only the necessary features.
-- **Strict**. Linting and formatting are strictly enforced.
-- **Customizable**. can be easily customized.
-- **Up-to-date**. up-to-date and uses the latest version of Next.js.
+# Web Template
 
 ## Features
 
-- Next.js
+### 🌳 Common
 
-  - `/app` Router
-  - Bundle Analyzer
+- [x] TypeScript
+- [x] React v18
+- [x] Next.js v14
 
-- TypeScript
+### ⌨️ Develop
 
-  - Strict Mode
+- [x] ESLint
+- [x] Prettier
+- [x] Husky
+- [x] Lint Staged
+- [x] Vercel Analytics
 
-- Style
+### 👗 Style
 
-  - postcss
-  - tailwindcss
+- [x] Post CSS
+- [x] Tailwind CSS
+- [x] Autoprefixer
+- [x] CSS Nano
+- [x] Daisy UI
+- [x] CLSX
 
-- SEO Support
+### 🔎 SEO
 
-  - next-sitemap
-  - next-seo
+- [x] Next Sitemap
 
-- Formatters, Linters
+### ⚒️ Tool
 
-  - Eslint
-  - Prettier
-
-- Dev Tools
-
-  - Husky
-  - Lint staged
-
-- Deployment Support
-
-  - Vercel Analytics
-
-## Getting Started
-
-1. Fork this template repository
-2. Clone your forked repository
-3. Customize `name` in `package.json`
-4. Customize `siteUrl` in `next-sitemap.config.js`
-5. Overwrite favicon file in `src/app/favicon.ico` (optional)
-6. Install dependencies
+- [x] Dayjs

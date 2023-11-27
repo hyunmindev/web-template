@@ -2,8 +2,8 @@ import type { ReactNode } from 'react';
 
 import { Analytics } from '@vercel/analytics/react';
 
-import { firaMono } from '~/styles/font';
-import '~/styles/global.css';
+import { firaMono } from '~/_styles/font';
+import '~/_styles/global.css';
 
 interface Properties {
   readonly children: ReactNode;
@@ -20,7 +20,7 @@ function RootLayout({ children }: Properties) {
       className={`${firaMono.variable} overscroll-none`}
       lang="ko"
     >
-      <body className="flex min-h-screen flex-col items-center overscroll-none bg-background font-monospace text-stone-200 selection:bg-lime-900 selection:text-stone-50">
+      <body className="flex min-h-screen flex-col items-center overscroll-none font-monospace text-stone-200 selection:bg-lime-900 selection:text-stone-50">
         {children}
         <Analytics />
       </body>
